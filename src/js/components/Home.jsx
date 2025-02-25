@@ -14,11 +14,11 @@ const Home = () => {
 			<Navbar />
 			<div className="container mb-5">
 				<Jumbotron />
-				<div className="row justify-content-center g-4">
-					<div className="col-12 sm-6 col-md-4 col-lg-3"><Card /></div>
-					<div className="col-12 sm-6 col-md-4 col-lg-3"><Card /></div>
-					<div className="col-12 sm-6 col-md-4 col-lg-3"><Card /></div>
-					<div className="col-12 sm-6 col-md-4 col-lg-3"><Card /></div>
+				<div className="row row-cols-1 row-cols-md-4 g-4">
+					<div className="col"><Card /></div>
+					<div className="col"><Card /></div>
+					<div className="col"><Card /></div>
+					<div className="col"><Card /></div>
 				</div>
 			</div>
 			<Footer />
